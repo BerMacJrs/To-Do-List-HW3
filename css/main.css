@@ -30,7 +30,8 @@ main {
 /* Responsiveness Flex Wrap */
 }
 
-header > h1 {
+header {
+    display: inline-block;
     text-align: center;
     padding: 10px;
 }
@@ -43,6 +44,8 @@ article {
     margin: 10px;
     text-align: left;
 }
+
+/* Try Separating Images to ID */
 
 article h2 {
     color: gray;
@@ -75,7 +78,6 @@ ul {
 
 ul li {
     padding: 6px 8px;
-    text-transform: uppercase;
 }
 
 .todo li:nth-child(odd) {
