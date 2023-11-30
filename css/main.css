@@ -123,11 +123,30 @@ input[type="checkbox"] {
     color: green;
 }
 
+header h1::before, h1::after {
+    content: "\1F4BB";
+    padding-right: 8px;
+}
+
 #todo li::before {
     content: "\2013";
     padding-right: 8px;
 }
 
+#todo h2::after {
+    content: "\1F4C3";
+    padding-left: 3px;
+}
+
+#inprogress h2::after {
+    content: "\1F4BC";
+    padding-left: 3px;
+}
+
+#done h2::after {
+    content: "\1F947";
+    padding-left: 3px;
+}
 
 @keyframes fadeIn {
     from {opacity: 0;}
