@@ -140,17 +140,17 @@ header h1::after {
 
 #todo h2::after {
     content: "\1F4C3";
-    padding-left: 3px;
+    padding-left: 5px;
 }
 
 #inprogress h2::after {
     content: "\1F4BC";
-    padding-left: 3px;
+    padding-left: 5px;
 }
 
 #done h2::after {
     content: "\1F947";
-    padding-left: 3px;
+    padding-left: 5px;
 }
 
 @keyframes fadeIn {
