@@ -14,7 +14,6 @@ body {
     background-color: black;
     color: white;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
-
     background-image: url(../images/to-do-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,7 +122,6 @@ input[type="checkbox"] {
 #done input[type="checkbox"]:checked + span {
     color: green;
 }
-
 
 #todo li::before {
     content: "\2013";
