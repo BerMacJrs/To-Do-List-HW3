@@ -123,9 +123,14 @@ input[type="checkbox"] {
     color: green;
 }
 
-header h1::before, h1::after {
+header h1::before {
     content: "\1F4BB";
     padding-right: 8px;
+}
+
+header h1::after {
+    content: "\1F4BB";
+    padding-left: 8px;
 }
 
 #todo li::before {
@@ -162,7 +167,7 @@ section {
 }
 
 section h3 {
-    font-size: 25px;
+    font-size: 27px;
     text-align: center;
     margin-bottom: 13px;
 }
